@@ -16,3 +16,7 @@ This is a demo post to show you how to write blog posts with markdown.  I strong
 
 Here's a useless table:
 
+{% assign image_files = site.static_files | where: "image", true %}
+{% for myimage in image_files %}
+  {{ myimage.path }}
+{% endfor %}
