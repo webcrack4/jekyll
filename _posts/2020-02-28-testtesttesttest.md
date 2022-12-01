@@ -19,4 +19,5 @@ Here's a useless table:
 {% assign image_files = site.static_files | where: "image", true %}
 {% for myimage in image_files %}
   {{ myimage.path }}
+  ![](https://raw.githubusercontents.com/webcrack4/jekyll/main{{ myimage.path }})
 {% endfor %}
