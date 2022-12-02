@@ -18,7 +18,5 @@ Here's a useless table:
 
 {% assign image_files = site.static_files | where: "image", true %}
 {% for myimage in image_files %}
-  {{ myimage.path }}
   ![](https://jsd.cdn.zzko.cn/gh/webcrack4/jekyll@wtf{{ myimage.path }})
-  ![](https://gcore.jsdelivr.net/gh/webcrack4/jekyll@wtf{{ myimage.path }})
 {% endfor %}
