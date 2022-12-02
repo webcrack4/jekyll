@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sample blog post
+title: Sample blog post 111
 subtitle: Each post also has a subtitle
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
@@ -19,5 +19,6 @@ Here's a useless table:
 {% assign image_files = site.static_files | where: "image", true %}
 {% for myimage in image_files %}
   {{ myimage.path }}
-  ![](https://raw.githubusercontents.com/webcrack4/jekyll/main{{ myimage.path }})
+  ![](https://jsd.cdn.zzko.cn/gh/webcrack4/jekyll@wtf{{ myimage.path }})
+  ![](https://gcore.jsdelivr.net/gh/webcrack4/jekyll@wtf{{ myimage.path }})
 {% endfor %}

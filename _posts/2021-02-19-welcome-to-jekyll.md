@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Welcome to Jekyll!'
+title: 'Welcome to Jekyll!  11111'
 date: 2021-02-19 23:17:16 +0000
 categories: jekyll update
 ---
@@ -25,6 +25,9 @@ print_hi('Tom')
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+{% assign image_files = site.static_files | where: "image2", true %}
+{% for myimage in image_files %}
+  {{ myimage.path }}
+  ![](https://jsd.cdn.zzko.cn/gh/webcrack4/jekyll@wtf{{ myimage.path }})
+  ![](https://gcore.jsdelivr.net/gh/webcrack4/jekyll@wtf{{ myimage.path }})
+{% endfor %}
