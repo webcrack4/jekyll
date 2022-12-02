@@ -43,6 +43,39 @@ defaults:
       path: "assets/img/20221202_2"
     values:
       image2: true
+  - scope:
+      path: "assets/img/20221202_3"
+    values:
+      image3: true
+  - scope:
+      path: "assets/img/img"
+    values:
+      image4: true
+  - scope:
+      path: "assets/img/normal"
+    values:
+      image5: true
+  - scope:
+      path: "assets/img/png"
+    values:
+      image6: true
+  - scope:
+      path: "assets/img/twitter"
+    values:
+      image7: true
+  - scope:
+      path: "assets/img/xiuren_1"
+    values:
+      image8: true
+  - scope:
+      path: "assets/img/xiuren_2"
+    values:
+      image9: true
+  - scope:
+      path: "assets/img/xiuren_4"
+    values:
+      image10: true
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
