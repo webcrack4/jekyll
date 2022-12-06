@@ -79,6 +79,10 @@ defaults:
       path: "assets/img/xiuren_3"
     values:
       image11: true
+  - scope:
+      path: "assets/pdf/screen"
+    values:
+      pdf: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
