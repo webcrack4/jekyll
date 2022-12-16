@@ -84,6 +84,10 @@ defaults:
     values:
       image12: true
   - scope:
+      path: "assets/img/xiuren_6"
+    values:
+      image13: true
+  - scope:
       path: "assets/pdf/screen"
     values:
       pdf: true
