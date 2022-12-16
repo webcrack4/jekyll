@@ -27,5 +27,5 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 {% assign image_files = site.static_files | where: "image2", true %}
 {% for myimage in image_files %}
-  ![](https://jsd.cdn.zzko.cn/gh/webcrack4/jekyll@wtf{{ myimage.path }})
+   ![](https://raw.iqiq.io/webcrack4/jekyll/wtf{{ myimage.path }})
 {% endfor %}
